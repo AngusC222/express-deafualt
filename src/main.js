@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 const app = express()
-const PORT = 80;    //port 80 maybe in use (try another port)
+const PORT = 80;
 app.use(express.json());
 app.use(
     cors({
